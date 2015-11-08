@@ -1,0 +1,177 @@
+body {
+    height:100vh; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.mayor{
+    width:100%;
+    height:100%;
+}
+.header{
+    width:100%;
+    height: 50px;
+    background-color: #FF8000;
+}
+#veljet{
+    height: 90%;
+    margin-top: 2px;
+    margin-bottom: 3px;
+    margin-left: 20px;
+}
+#nav-tabs{
+    width:20px;
+    margin-right: 2px;
+    float:center;
+    text-align:center;
+}
+#container {
+    width:100%;
+    height: 90%;
+    text-align:center;
+    margin-top: 20px;
+}
+#container2 {
+    width:90%;
+    height:90%;
+    text-align:center;
+    margin-top: 20px; 
+}
+#header{
+    width: 100%;
+    height: 30px;
+}
+
+#izquierda{
+    background: white;
+    height: 100%;
+    width: 70%;
+    float:left; 
+    text-align: center ;
+    margin-left: 20px;
+}
+
+#derecha { 
+    width: 25%;
+    height: 100%;
+    background:white; 
+    float:right; 
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#centro { 
+    width:90%; 
+    height:80%; 
+    background:white; 
+    float:left;
+}
+
+#abajo {
+    width: 90%;
+    height: 20%;
+    background:white;
+    clear:both;
+}
+
+#video{
+    height:100%;
+    width:100%;
+    margin-right: 20px;
+}
+
+.mini-videos{
+    height: 25px;
+    width: 16px;
+    margin-top: 0px;
+    margin-bottom:150px;
+}
+.comentario{
+    width:100%;
+    height:30%;
+    text-align: left;
+    background: orange;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+
+.agregar-comentario{
+    height: 15px;
+}
+hr{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#menu1{
+    height: 9px;
+    width: 16px;
+}
+
+#menu2{
+    height: 9px;
+    width: 16px;
+}
+
+#menu3{
+    height: 9px;
+    width: 16px;
+}
+#Separador{
+    height: 3px;
+}
+.myButton {
+  -moz-box-shadow: 0px 1px 0px 0px #fff6af;
+  -webkit-box-shadow: 0px 1px 0px 0px #fff6af;
+  box-shadow: 0px 1px 0px 0px #fff6af;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+  background:-moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+  background:-webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+  background:-o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+  background:-ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+  background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
+  background-color:#ffec64;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  border:1px solid #ffaa22;
+  display:inline-block;
+  cursor:pointer;
+  color:#333333;
+  font-family:Arial;
+  font-size:15px;
+  font-weight:bold;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #ffee66;
+}
+.myButton:hover {
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
+  background:-moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+  background:-webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+  background:-o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+  background:-ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+  background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0);
+  background-color:#ffab23;
+}
+.myButton:active {
+  position:relative;
+  top:4px;
+}
+input {
+    border: 2px solid #F3E2A9; 
+    -webkit-box-shadow: 
+      inset 0 0 6px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 6px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 6px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 15px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
+}
